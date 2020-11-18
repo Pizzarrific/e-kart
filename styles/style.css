@@ -9,3 +9,8 @@
     display: none;
     
 }
+.submenu:hover #cart{
+    display: block;
+    position: absolute;
+
+}
