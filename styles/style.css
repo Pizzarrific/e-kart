@@ -14,3 +14,25 @@
     position: absolute;
 
 }
+.course-item{
+    bottom: 1px solid #cccccc;
+    box-shadow: 0 14px 28px #000000e3;
+}
+.courses-container{
+    display:grid;
+    grid-gap:25px;
+    max-width: 1080px;
+    margin: 0 auto;
+}
+.info-card h4{
+    font-size: 14px;
+    font-weight: 700;
+}
+.course-cart > img{
+    width: 100%;
+}
+@media all and (min-width:949px) {
+    .courses-container{
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
